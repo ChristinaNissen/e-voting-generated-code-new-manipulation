@@ -40,10 +40,10 @@ export default function Info3() {
     <div className="container-info-pages">
       <div className="inner-box-info centered-info-page">
         <h2 className="h2-info-pages">Please tell us about your experience</h2>
-        <Text className="medium-body-text-info">
+     {/*    <Text className="medium-body-text-info">
           Congratulations! You have finished the second part of the study.
         </Text>
-
+ */}
         <Text className="medium-body-text-info">
           To complete the study, please fill out a survey about your experience
           of the online voting system.

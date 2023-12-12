@@ -32,15 +32,14 @@ export default function Confirmation() {
         <div className="inner-page-container-narrow">
           <h1 className="blue-text">Thank you for voting!</h1>
           <Text>
-            Once all votes have been counted, the results are published on our
-            offical webpage.{" "}
+          You have completed General Election 2023. 
           </Text>
-          <Text>
+        {/*   <Text>
             Please use this webpage to check, if your vote has been saved
             correctly by finding your unique verification code.
-          </Text>
-          <Button className="blue-btn" onClick={() => navigate("/info-2")}>
-            Next
+          </Text> */}
+          <Button className="blue-btn" onClick={() => navigate("/info-3")}>
+            Finish
           </Button>
         </div>
       </div>
