@@ -36,8 +36,7 @@ export default function Info2() {
           website.
         </Text>
         <Text className="medium-body-text-info">
-          However, since this is a study, the results are already up. {/* Please
-          follow the instruction letter to verify your vote now! */}
+          However, since this is a study, the results are already up. 
         </Text>
         <Button onClick={()=>navigate("/verification")} className="red-btn">Next</Button>
       </div>
