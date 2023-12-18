@@ -18,7 +18,7 @@
  */
 
 import React from "react";
-import { Text } from "@chakra-ui/react";
+import { Text, Button } from "@chakra-ui/react";
 import "./InfoPages.css";
 import { useNavigate } from "react-router-dom";
 
